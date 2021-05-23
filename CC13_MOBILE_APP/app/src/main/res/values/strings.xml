@@ -1,0 +1,44 @@
+<resources>
+    <string name="appName">CC13App</string>
+
+    <string name="mainConnectButton">"CONNECT"</string>
+    <string name="mainLogoImageDescription">"CC13logo"</string>
+    <string name="mainExitButton">"EXIT"</string>
+
+    <string name="bluetoothPairedDevicesText">"Paired Devices"</string>
+    <string name="bluetoothDisplayPairedDevicesButton">"Display Paired Devices"</string>
+
+    <string name="controlRGB1Text">"RGB 1"</string>
+    <string name="controlRGB2Text">"RGB 2"</string>
+    <string name="controlBatteryText">"BATTERY"</string>
+    <string name="controlR">"R"</string>
+    <string name="controlG">"G"</string>
+    <string name="controlB">"B"</string>
+
+    <string name="batteryControlstmBat">"Battery charge level:"</string>
+    <string name="batteryControlservosBat">"Servos Supply"</string>
+    <string name="batteryControlmotorsBat">"Motors Supply"</string>
+    <string name="batteryControlLow">"Low voltage: </string>
+    <string name="batteryControlHigh">"High voltage: </string>
+    <string name="batteryControlCheck">"Check"</string>
+
+    <string name="start">"START"</string>
+    <string name="stop">"STOP"</string>
+
+    <string name="speedSpeed">"SPEED: "</string>
+    <string name="speedSlower">"SLOWER"</string>
+    <string name="speedFaster">"FASTER"</string>
+    <string name="speedUnit">" M/S"</string>
+    <string name="speedStartSpeed">"0,0"</string>
+
+    <string name="distanceForward">"FORWARD"</string>
+    <string name="distanceBackward">"BACKWARD"</string>
+    <string name="distanceLeft">"LEFT"</string>
+    <string name="distanceRight">"RIGHT"</string>
+    <string name="distanceAbort">"ABORT"</string>
+
+    <string name="callBackDisplay">"DISPLAY"</string>
+    <string name="callBackLive">"LIVE"</string>
+    <string name="callBackChooseInformation">"CHOOSE INFORMATION"</string>
+    <string name="callBackChooseTimePeriod">"CHOOSE TIME PERIOD"</string>
+</resources>

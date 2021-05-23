@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/controlActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Control">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:background="@color/lightBlue"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/rgbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rgb1Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/controlRGB1Text"
+                android:textColor="@color/lightText"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/rgb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBoxR1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/controlR"
+                    android:textColor="@color/lightText"
+                    android:textColorHighlight="#F44336"
+                    android:textColorLink="#F44336"
+                    android:textCursorDrawable="@android:color/holo_red_dark"
+                    android:textSize="20sp"
+                    android:theme="@style/RedCheck" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxG1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/controlG"
+                    android:textColor="@color/lightText"
+                    android:textSize="20sp"
+                    android:theme="@style/GreenCheck" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxB1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="@string/controlB"
+                    android:textColor="@color/lightText"
+                    android:textSize="20sp"
+                    android:theme="@style/BlueCheck" />
+
+                <Switch
+                    android:id="@+id/onOff1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@android:color/holo_green_dark"
+                    android:checked="false"
+                    android:shadowColor="@color/colorAccent"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorLink="#FF9800"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/rgb2Text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="30sp"
+                android:text="@string/controlRGB2Text"
+                android:textColor="@color/lightText"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/rgb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkBoxR2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/controlR"
+                    android:textColor="@color/lightText"
+                    android:textSize="20sp"
+                    android:theme="@style/RedCheck" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxG2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="@string/controlG"
+                    android:textColor="@color/lightText"
+                    android:textSize="20sp"
+                    android:theme="@style/GreenCheck" />
+
+                <CheckBox
+                    android:id="@+id/checkBoxB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="25dp"
+                    android:layout_marginRight="25dp"
+                    android:text="@string/controlB"
+                    android:textColor="@color/lightText"
+                    android:textSize="20sp"
+                    android:theme="@style/BlueCheck" />
+
+                <Switch
+                    android:id="@+id/onOff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@android:color/holo_green_dark"
+                    android:checked="false"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/smallJoy"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="125dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginEnd="125dp"
+            android:background="@drawable/image_button_bg">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bigJoy"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/image_button_bg">
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

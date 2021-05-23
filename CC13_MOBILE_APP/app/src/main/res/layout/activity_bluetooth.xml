@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    tools:context=".Bluetooth">
+
+    <TextView
+        android:id="@+id/pairedDeviceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/bluetoothPairedDevicesText"
+        android:textColor="@color/lightText"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/pairedDevicesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/darkBlue"
+        android:text="@string/bluetoothDisplayPairedDevicesButton"
+        android:textColor="@color/lightText"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/pairedDeviceListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pairedDevicesButton"
+        android:layout_below="@+id/pairedDeviceText"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
