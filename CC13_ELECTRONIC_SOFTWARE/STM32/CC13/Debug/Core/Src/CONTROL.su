@@ -1,0 +1,15 @@
+LED.h:71:14:void DigitalLED_RGB::Init(GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, bool)	24	static
+I2Cdev.h:75:21:void I2Cdev::Init(I2C_HandleTypeDef*)	16	static
+CONTROL.cpp:52:14:float max(float, float)	16	static
+CONTROL.cpp:64:13:void setup()	32	static
+CONTROL.cpp:114:13:void loop()	8	static
+CONTROL.cpp:128:13:void setRGB(DigitalLED_RGB*, int)	16	static
+CONTROL.cpp:133:13:void setServos(ServoMotor*, ServoMotor*, int, int)	32	static
+CONTROL.cpp:143:13:void setMotors(DCMotor*, DCMotor*, int, int)	24	static
+CONTROL.cpp:235:6:void sendSupplyVoltage()	16	static
+CONTROL.cpp:242:13:void UART_Callback(UART_HandleTypeDef*)	16	static
+CONTROL.cpp:302:6:void extern_setup()	8	static
+CONTROL.cpp:303:6:void extern_loop()	8	static
+CONTROL.cpp:304:6:void extern_UART_Callback(UART_HandleTypeDef*)	16	static
+CONTROL.cpp:305:1:void __static_initialization_and_destruction_0(int, int)	16	static
+CONTROL.cpp:305:1:cpp)	8	static

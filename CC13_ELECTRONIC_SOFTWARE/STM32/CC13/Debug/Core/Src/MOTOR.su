@@ -1,0 +1,15 @@
+MOTOR.cpp:14:6:void ServoMotor::Init(TIM_HandleTypeDef*, uint32_t, uint32_t, uint32_t, bool)	24	static
+MOTOR.cpp:32:6:void ServoMotor::SetAngle(uint32_t)	32	static
+MOTOR.cpp:49:6:void ServoMotor::SetAngleProcent(uint32_t)	48	static
+MOTOR.cpp:63:6:void ServoMotor::SetNormal()	24	static
+MOTOR.cpp:68:6:void ServoMotor::ChangeMode()	16	static
+MOTOR.cpp:73:6:void ServoMotor::PwmClarify(uint32_t, uint32_t)	24	static
+MOTOR.cpp:82:6:void DCMotor::Init(TIM_HandleTypeDef*, uint32_t, GPIO_TypeDef*, uint16_t, GPIO_TypeDef*, uint16_t, bool)	24	static
+MOTOR.cpp:106:6:void DCMotor::SetValue(uint8_t)	16	static
+MOTOR.cpp:111:6:void DCMotor::ChangeDirection()	16	static
+MOTOR.cpp:116:6:void DCMotor::SetDirection(bool)	16	static
+MOTOR.cpp:121:6:void DCMotor::Off()	16	static
+MOTOR.cpp:128:6:void DCMotor::On(uint32_t)	32	static
+MOTOR.cpp:153:6:void DCMotor::Update()	32	static
+MOTOR.cpp:223:6:void Encoder::Init(TIM_HandleTypeDef*, uint32_t, uint32_t)	24	static
+MOTOR.cpp:235:10:uint32_t Encoder::Read()	16	static

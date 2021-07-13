@@ -1,0 +1,17 @@
+FIXED.h:57:10:fixed::fixed(short int)	16	static
+FIXED.h:59:24:int8_t operator==(fixed, fixed)	16	static
+FIXED.h:62:23:short int operator>>(fixed, uint8_t)	16	static
+FIXED.h:63:26:uint32_t operator<<(fixed, uint8_t)	16	static
+FIXED.h:65:24:int8_t operator<(fixed, fixed)	16	static
+FIXED.h:69:23:short int operator&(fixed, short int)	16	static
+FIXED.h:71:23:fixed operator-(fixed)	24	static
+FIXED.cpp:22:14:float fixed_to_float(fixed)	16	static
+FIXED.cpp:27:7:fixed float_to_fixed(float)	48	static
+FIXED.cpp:61:13:const char* fixed_to_bin(fixed)	24	static
+FIXED.cpp:83:13:const char* fixed_to_dec(fixed)	32	static
+FIXED.cpp:112:7:fixed operator+(fixed, fixed)	40	static
+FIXED.cpp:163:7:fixed operator-(fixed, fixed)	40	static
+FIXED.cpp:210:7:fixed operator*(fixed, fixed)	40	static
+FIXED.cpp:254:7:fixed operator/(fixed, fixed)	48	static
+FIXED.cpp:310:7:fixed sqrt(fixed)	48	static
+FIXED.cpp:350:8:void FixedOverflowMessage(const char*, int, const char*)	24	static

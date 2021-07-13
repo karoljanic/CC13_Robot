@@ -1,0 +1,20 @@
+*** Kody wysyłane przez aplikacje: ***
+
+    10 --> prośba o podanie informacji o baterii i napieciu
+
+    11 --> informacja, że kolejna liczba to stan pierwszej diody RGB; kolejna liczba ma ustawiony: 1. bit jeśli załączony jest kolor RED
+												   2. bit jeśli załączony jest kolor GREEN
+												   3. bit jeśli załączony jest kolor BLUE
+												   kolejność bitów: od najmłodszego
+
+    12 --> informacja, że kolejna liczba to stan drugiej diody RGB; informacje na temat drugiej liczby powyżej
+
+    21 --> informacja, że dwie kolejne liczby to wartość składowe X i Y dla pracy silników
+
+    22 --> informacja, że dwie kolejne liczby to wartości X i Y dla ustawienia serwomechanizmów
+
+    51 --> prośba o podanie informacji o aktualnych wartościach MPU6050
+
+
+
+     
